@@ -1,0 +1,20 @@
+{
+    "app": {
+		"title": "WAEC Apps Directory API",
+		"description": "WAEC Apps Directory Web API",
+		"keywords": "waec, apps, directory, project"
+	},
+    "mail": {
+        "host": "prod-mail-server"
+    },
+    "hosting": {
+        "defaultPort": 3000
+    },
+    "db": {
+        "name": "WAECAppsDirectory DB",
+        "url": "mongodb://localhost/wappsdirectorydb"
+    },
+	"sessionSecret": "WAECADS",
+    "sessionCollection": "app-usage-sessions"
+    
+}
